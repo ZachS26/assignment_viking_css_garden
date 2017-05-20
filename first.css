@@ -1,0 +1,64 @@
+body {
+  background: url(http://cdn.wallpapersafari.com/21/63/IuhVvO.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.text-align-center{
+  text-align: center;
+}
+.big-header{
+  color: lightgrey;
+}
+.list-nostyle{
+  list-style: none;
+}
+ul li {
+  margin-right: 3%;
+}
+.header-color{
+  color:darkgrey;
+}
+table td {
+  border: 2px solid lightgrey;
+  border-collapse: collapse;
+}
+a{
+  text-decoration: none;
+  color: red;
+}
+a:hover{
+  color:lightgrey;
+  text-decoration: underline;
+}
+.fixed{
+  position: fixed;
+}
+.footer{
+  margin-top: 5%;
+}
+.container::before,
+.container::after{
+  content: " ";
+  display: table;
+}
+.container::after{
+  clear:both;
+}
+.list-left{
+  float: left;
+  border: 2px solid lightgrey;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width:45%;
+}
+.list-right{
+  float: right;
+  border: 2px solid lightgrey;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 45%;
+}
+.table{
+  border-collapse: collapse;
+}
